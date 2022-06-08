@@ -23,7 +23,6 @@ async function loadContent() {
 	const categories = await getCategories();
 	addCategoriesToList(categories);
 	const response = await loadJokes(categories);
-	debugger;
 	hideLoading();
 }
 
